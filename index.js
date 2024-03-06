@@ -40,3 +40,13 @@ var data = [
        .y("value")
        .axes({"ticks" : false})
        .draw()
+
+       var visualization3 = d3plus.viz()
+       .container("#viz5")
+       .data(data)
+       .type("bar")
+       .id("name")
+       .x("year")
+       .y("value")
+       .axes({"ticks" : false})
+       .draw()
